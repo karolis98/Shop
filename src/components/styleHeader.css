@@ -1,0 +1,44 @@
+.body {
+}
+#root {
+  width: 100%;
+}
+.Logo-Container {
+}
+.Brand-Name {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-size: 27px;
+}
+.LOGO {
+  width: 140px;
+  height: auto;
+}
+.Header-Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.bar {
+  background-color: rgb(235, 242, 231);
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: rgb(209, 209, 209);
+  border-radius: 3px;
+}
+.bar :hover {
+  background-color: rgb(91, 94, 87);
+  text-decoration: none;
+  color: rgb(206, 206, 206);
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.btn {
+  color: black;
+}
+.PhoneImg {
+  width: 30px;
+  height: auto;
+}
